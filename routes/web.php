@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('register/applicant',       [App\Http\Controllers\ApplicantController::class, 'index'])->name('storedata');
+Route::get('register/applicant',       [App\Http\Controllers\ApplicantController::class, 'index'])->name('indexAction');
